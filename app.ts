@@ -12,7 +12,7 @@ import { Mytext } from './lib/mytext';
   selector: 'hello-world'
 })
 @View({
-  directives: [NgFor],
+  directives: [NgFor, Mytext],
   template: `
   <ul>
   <li *ng-for="#name of names">Hello {{name}}</li>

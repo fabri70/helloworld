@@ -6,7 +6,7 @@ import {
   bootstrap,
 } from "angular2/angular2";
 
-//import { Mytext } from './lib/mytext';
+import { Mytext } from './lib/mytext';
 
 @Component({
   selector: 'hello-world'
